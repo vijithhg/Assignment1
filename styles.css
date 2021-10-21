@@ -1,0 +1,31 @@
+
+*{
+	box-sizing: border-box;
+}
+body{
+	background-color: #333;
+	font-family: "Times New Roman";
+	
+}
+
+.vh-60{
+	height: 60vh;
+}
+
+.vh-40{
+	height: 40vh;
+}
+
+/*section1*/
+
+
+.font-para p{
+	font-size: 1.3rem;
+}
+
+@media only screen and (max-width: 576px) {
+
+	.vh-60{
+		height: auto; 
+	}
+}
